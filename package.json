@@ -1,0 +1,25 @@
+{
+  "name": "node-coding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsc -w",
+    "zod": "node src/zod/index.js",
+    "run": "ts-node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.6.0",
+    "typescript": "^5.1.6"
+  }
+}
