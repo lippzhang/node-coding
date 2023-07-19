@@ -20,4 +20,8 @@
     "downlevelIteration": true,
     "isolatedModules": true
   },
+  "ts-node": {
+    "esm": true,
+    "experimentalSpecifierResolution": "node"
+  }
 }
